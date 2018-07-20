@@ -1,0 +1,77 @@
+body{
+
+  font: 15px/1.5 Arial,Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color: :#f4f4f4
+
+}
+
+/* Global */
+.container{
+width:80%;
+margin:auto;
+overflow:hidden;
+
+}
+
+
+/* Hrader */
+header{
+  background:#36C1C8;
+  color: #BF2E13;
+  font-weight: bolder;
+  font-size:18px;
+  font-style: italic;
+  min-height: 70px;
+  padding-top: 30px;
+  border-bottom: #BF2E13;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+
+}
+
+header a{
+  color:#BF2E13;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+
+}
+
+
+header ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+header li{
+  float: left;
+  display:inline;
+  padding:0 20px 0 20px;
+}
+
+/* showcase */
+
+#showcase{
+  min-height: 400px;
+  background: url('../Images/showcase.png') no-repeat;
+  color:white;
+}
+
+
+#boxes{
+  margin-top:10px;
+}
+
+#boxes .box{
+  float:left;
+
+}
